@@ -1,14 +1,9 @@
-# kickstart.nvim
+# Digs.nvim
+(my personal fork of kickstart.nvim)
 
 ## Introduction
-
-A starting point for Neovim that is:
-
-* Small
-* Single-file
-* Completely Documented
-
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
+Was originally a fork of kickstart.nvim but I have sinced converted
+it into a multifile config based off of kickstart.modular
 
 ## Installation
 
