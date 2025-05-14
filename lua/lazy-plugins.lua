@@ -11,7 +11,10 @@
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
   -- Themes
+  require 'themes/themery',
   require 'themes/catppuccin',
+  require 'themes/kanagawa',
+  require 'themes/everforest',
 
   -- Big Config Plugins
   require 'plugins/snacks',
