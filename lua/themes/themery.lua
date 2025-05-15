@@ -6,11 +6,11 @@ return {
       themes = {
         {
           name = 'Day',
-          colorscheme = 'catppuccin-latte',
+          colorscheme = 'kanagawa-lotus',
         },
         {
           name = 'Night',
-          colorscheme = 'catppuccin-mocha',
+          colorscheme = 'kanagawa-dragon',
         },
       },
       vim.keymap.set('n', '<leader>tt', function()
