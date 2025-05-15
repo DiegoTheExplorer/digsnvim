@@ -10,7 +10,7 @@ return {
         },
         {
           name = 'Night',
-          colorscheme = 'kanagawa-dragon',
+          colorscheme = 'kanagawa-wave',
         },
       },
       vim.keymap.set('n', '<leader>tt', function()
