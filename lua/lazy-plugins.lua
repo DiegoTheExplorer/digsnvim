@@ -34,7 +34,7 @@ require('lazy').setup({
   require 'plugins/conform', -- Autoformat
   require 'plugins/treesitter',
   -- TODO: Eventually replace with blink.cmp
-  require 'plugins/nvim-cmp', -- Autocompletion
+  require 'plugins/blink-cmp', -- Autocompletion
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
