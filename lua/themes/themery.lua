@@ -5,21 +5,29 @@ return {
     require('themery').setup {
       themes = {
         {
-          name = 'Day',
+          name = 'Kanagawa Lotus',
           colorscheme = 'kanagawa-lotus',
         },
         {
-          name = 'Night',
+          name = 'Kanagawa Wave',
           colorscheme = 'kanagawa-wave',
+        },
+        {
+          name = 'Catppuccin Latte',
+          colorscheme = 'catppuccin-latte',
+        },
+        {
+          name = 'Catppuccin Mocha',
+          colorscheme = 'catppuccin-mocha',
         },
       },
       vim.keymap.set('n', '<leader>tt', function()
         local themery = require 'themery'
         local currentTheme = themery.getCurrentTheme()
-        if currentTheme and currentTheme.name == 'Day' then
-          themery.setThemeByName('Night', true)
+        if currentTheme and currentTheme.name == 'Catppuccin Latte' then
+          themery.setThemeByName('Catppuccin Mocha', true)
         else
-          themery.setThemeByName('Day', true)
+          themery.setThemeByName('Catppuccin Latte', true)
         end
       end, { noremap = true }),
     }

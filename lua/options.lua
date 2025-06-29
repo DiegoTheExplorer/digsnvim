@@ -73,3 +73,6 @@ vim.diagnostic.config {
   underline = true,
   update_in_insert = false,
 }
+
+-- autoclose quickfix menu when editinx .tex files
+vim.g.vimtex_quickfix_autoclose_after_keystrokes = 1
