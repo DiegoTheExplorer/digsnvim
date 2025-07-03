@@ -18,7 +18,9 @@ return {
       require('mini.surround').setup()
 
       -- Save sessions to easily jump back into all the open files
-      require('mini.sessions').setup()
+      require('mini.sessions').setup {
+        autoread = true,
+      }
 
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
