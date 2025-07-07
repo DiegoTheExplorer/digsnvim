@@ -74,5 +74,8 @@ vim.diagnostic.config {
   update_in_insert = false,
 }
 
+-- enable inline hint (mainly inferred variable type)
+vim.lsp.inlay_hint.enable(true)
+
 -- autoclose quickfix menu when editinx .tex files
 vim.g.vimtex_quickfix_autoclose_after_keystrokes = 1
